@@ -1,6 +1,7 @@
+import './App.css'
 function App() {
   return (
-<div className="h-screen w-screen bg-gradient-to-b from-black to-sky-950"></div>
+   <div className="h-screen w-screen absolute bg-gradient-to-b from-black to-sky-950"></div>
   );
 }
 
