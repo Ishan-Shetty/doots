@@ -1,7 +1,12 @@
-
+import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import Home from './Home'
 function App() {
   return (
-   <div className="h-screen w-screen absolute bg-gradient-to-b from-black to-sky-950">Hello</div>
+    <BrowserRouter>
+    <Routes>
+    <Route path='/' element={<Home />}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

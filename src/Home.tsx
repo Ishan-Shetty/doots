@@ -1,7 +1,13 @@
-import React from 'react'
+import Navbar from './components/Navbar'
+import Firstpage from './components/Firstpage'
+function Home() {
 
-export default function Home() {
-  return (
-    <div>Home</div>
-  )
-}
+    return (
+      <div className="App">
+        <Navbar />
+        <Firstpage />
+      </div>
+    )
+  }
+  
+  export default Home;
