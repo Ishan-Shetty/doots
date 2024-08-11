@@ -2,7 +2,7 @@
 
 function Navbar() {
   return (
-    <nav className=" sticky top-0 m-0 p-5 bg-black border-b-2 border-b-cyan-600">
+    <nav className=" sticky top-0 m-0 p-5 bg-black border-b-2 border-b-white">
       <div className="flex flex-row items-center justify-between">
         <img src="" alt="DOOTS" className="text-cyan-600" />
         <ul>
