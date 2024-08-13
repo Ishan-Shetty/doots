@@ -1,7 +1,14 @@
 import { Typewriter } from 'react-simple-typewriter';
 import doots from '../assets/doots.svg'
 import Navbar from './Navbar';
+import { useNavigate } from 'react-router-dom';
 function Firstpage() {
+  const navigate = useNavigate();
+
+  const handleLoginClick = () => {
+    navigate('/login');
+  };
+
   return (
     
     <div className="h-screen w-screen bg-gradient-to-b from-black to-sky-950">
@@ -24,7 +31,7 @@ function Firstpage() {
         <button className="  text-white text-2xl font-semibold p-5 bg-cyan-600 rounded-3xl hover:scale-125 cursor-pointer transform transition-transform duration-100">
           Sign In
        </button>
-          <button className=" text-white text-2xl font-semibold p-5 bg-cyan-600 rounded-3xl hover:scale-125 cursor pointer  transform transition-transform duration-100">
+          <button onClick={handleLoginClick} className=" text-white text-2xl font-semibold p-5 bg-cyan-600 rounded-3xl hover:scale-125 cursor pointer  transform transition-transform duration-100">
             Log In
           </button>
           </div>
