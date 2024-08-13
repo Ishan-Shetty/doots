@@ -8,6 +8,9 @@ function Firstpage() {
   const handleLoginClick = () => {
     navigate('/login');
   };
+  const handleSignupClick =() =>{
+    navigate('/signup')
+  }
 
   return (
     
@@ -15,20 +18,21 @@ function Firstpage() {
       <Navbar />
       <div className="flex items-center justify-center h-screen w-screen absolute ">
       <div className='  mt -50 static'><img src={doots} alt="" className='scale-110' /></div>
-        <div className="text-white text-8xl font-bold font-righteous -translate-y-10 ml-10">
+        <div className="text-white text-8xl font-bold font-righteous -translate-y-10 ml-10 text-center">
           WELCOME TO{' '}
           <span className="text-cyan-600">
             <Typewriter
               words={['DOOTS']}
-              loop={2}
+              loop={1}
               cursor
               cursorStyle="_"
               typeSpeed={70}
               deleteSpeed={100}
             />
           </span>
+          <p className='text-white font-semibold text-4xl mt-10'>Manage your task using doots</p>
           <div className=' relative m-7 space-x-10'>
-        <button className="  text-white text-2xl font-semibold p-5 bg-cyan-600 rounded-3xl hover:scale-125 cursor-pointer transform transition-transform duration-100">
+        <button onClick={handleSignupClick} className="  text-white text-2xl font-semibold p-5 bg-cyan-600 rounded-3xl hover:scale-125 cursor-pointer transform transition-transform duration-100">
           Sign In
        </button>
           <button onClick={handleLoginClick} className=" text-white text-2xl font-semibold p-5 bg-cyan-600 rounded-3xl hover:scale-125 cursor pointer  transform transition-transform duration-100">
