@@ -42,8 +42,8 @@ function Firstpage() {
         </div>
         
       </div>
-      
     </div>
+
   );
 }
 
