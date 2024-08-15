@@ -13,7 +13,7 @@ const SignUp = () => {
                 </div>
                 <div className="mt-4">
                     <label className="text-medium font-semibold">Email</label>
-                    <input className="w-full border-2 rounded-xl p-4 mt-1" placeholder="Enter your email"/>
+                    <input className="w-full border-2 rounded-xl p-4 mt-1" placeholder="Enter your email" type="email"/>
                 </div>
                 <div className="mt-4">
                     <label className="text-medium font-semibold">Password</label>
