@@ -64,7 +64,7 @@ const Login = () => {
             Log In
           </button>
         </div>
-        {message && <p className="text-center mt-4">{message}</p>}
+        {message && <p className="text-center mt-4 text-red-600">{message}</p>}
       </div>
     </div>
   );
