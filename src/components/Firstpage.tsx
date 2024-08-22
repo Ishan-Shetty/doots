@@ -33,7 +33,7 @@ function Firstpage() {
           <p className='text-white font-semibold text-4xl mt-10'>Manage your task using doots</p>
           <div className=' relative m-7 space-x-10'>
         <button onClick={handleSignupClick} className="  text-white text-2xl font-semibold p-5 bg-cyan-600 rounded-3xl hover:scale-125 cursor-pointer transform transition-transform duration-100">
-          Sign In
+          Sign Up
        </button>
           <button onClick={handleLoginClick} className=" text-white text-2xl font-semibold p-5 bg-cyan-600 rounded-3xl hover:scale-125 cursor pointer  transform transition-transform duration-100">
             Log In
