@@ -68,7 +68,7 @@ const Login = () => {
         {message && <p className="text-center mt-4 text-red-600">{message}</p>}
       </div>
     </div>
-    
+    <Footer />
   );
 };
 
