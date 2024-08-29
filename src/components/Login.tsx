@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Footer from './components/Footer';
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -67,6 +68,7 @@ const Login = () => {
         {message && <p className="text-center mt-4 text-red-600">{message}</p>}
       </div>
     </div>
+    
   );
 };
 
